@@ -4,7 +4,8 @@
 Este repositorio contiene los trabajos prácticos realizados para la materia Base de Datos, dictada por el profesor Gustavo Ramoscelli. 
 
 Tecnologías usadas para la realización de cada trabajo:
-(#tecnologías-utilizadas)
+- https://dbdiagram.io/home
+- "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dia\Dia.lnk"
 
 
 Integrantes del Grupo:
