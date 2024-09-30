@@ -5,7 +5,7 @@ Este repositorio contiene los trabajos prácticos realizados para la materia Bas
 
 
 Integrantes del Grupo:
-- Robles Gianfranco
-- Belatti Mateo Adaalberto
-- Peratta Lucas
-- Burgos Belén
+- Robles, Gianfranco
+- Belatti, Mateo Adaalberto
+- Peratta, Lucas
+- Burgos, Belén
