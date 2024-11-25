@@ -1,4 +1,8 @@
-**Ejercicio 5: Torneos de Ciclismo**
+## Ejercicio 5:
+
+## Torneo de Bicicletas
+
+
 **Esquema de BD:**
 
 TORNEO<cod_torneo, nombre_torneo, cod_corredor, cod_bicicleta, marca_bicicleta, nyap_corredor, sponsor, DNI_presidente_sponsor, DNI_medico>
