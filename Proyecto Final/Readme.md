@@ -7,7 +7,9 @@
 
 ## Descripción del Proyecto  
 **Este proyecto consiste en:**
-.  Desarrollar un sistema para gestionar un hospital que incluya pacientes, médicos y turnos de consulta médica.
+
+Desarrollar un sistema para gestionar un hospital que incluya pacientes, médicos y turnos de consulta médica.
+
 **Incluye:**  
 -   Gestión de pacientes.
 -   Gestión de doctores.
