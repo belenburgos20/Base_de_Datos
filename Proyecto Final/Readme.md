@@ -19,7 +19,31 @@ Desarrollar un sistema para gestionar un hospital que incluya pacientes, médico
 -   Cancelación de turnos.
 
 ---
+## Justificación del diseño:
 
+**Primera Forma Normal (1NF):**
+Regla: Cada columna debe contener valores atómicos (sin listas o conjuntos), y cada fila debe ser única.
+
+Cumple, ya que:
+Las columnas solo almacenan valores atómicos (un solo valor por celda).
+Cada tabla tiene una clave primaria definida, garantizando filas únicas.
+
+**Segunda Forma Normal (2NF):**
+Regla: Debe estar en 1NF y no debe haber dependencias parciales (las columnas no clave dependen completamente de la clave primaria).
+
+Cumple, ya que:
+Todas las columnas dependen completamente de la clave primaria de sus respectivas tablas. Por ejemplo:
+En Paciente, cada columna depende de id_paciente.
+En Cita, id_paciente y id_medico son claves externas correctamente referenciadas.
+
+**Tercera Forma Normal (23NF):**
+Regla: Debe estar en 2NF y no debe haber dependencias transitivas (una columna no clave depende de otra columna no clave).
+
+Cumple, ya que:
+No hay dependencias transitivas en ninguna tabla. Todas las columnas no clave dependen directamente de la clave primaria.
+
+
+---
 ## Objetivos  
 -  Optimizar la gestión de información.
 -  Facilitar la programación y gestión de turnos.
