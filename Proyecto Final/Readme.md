@@ -56,11 +56,13 @@ Todas las columnas dependen completamente de la clave primaria de sus respectiva
 En Paciente, cada columna depende de id_paciente.
 En Cita, id_paciente y id_medico son claves externas correctamente referenciadas.
 
-**Tercera Forma Normal (23NF):**
+**Tercera Forma Normal (3NF):**
 Regla: Debe estar en 2NF y no debe haber dependencias transitivas (una columna no clave depende de otra columna no clave).
 
 Cumple, ya que:
 No hay dependencias transitivas en ninguna tabla. Todas las columnas no clave dependen directamente de la clave primaria.
+
+
 
 
 ---
