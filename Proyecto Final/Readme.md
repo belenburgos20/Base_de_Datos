@@ -19,6 +19,28 @@ Desarrollar un sistema para gestionar un hospital que incluya pacientes, médico
 -   Cancelación de turnos.
 
 ---
+## Dependencias Funcionales (DFs)
+- **id_paciente** -> (nombre, edad, género, dirección, teléfono)
+- **id_medico** -> (nombre, especialidad, teléfono)
+- **id_cita** -> (id_paciente, id_medico, fecha_cita)
+- **id_paciente, id_medico** -> fecha_cita
+
+ 
+
+
+  
+
+
+
+
+---
+
+
+
+
+
+
+---
 ## Justificación del diseño:
 
 **Primera Forma Normal (1NF):**
