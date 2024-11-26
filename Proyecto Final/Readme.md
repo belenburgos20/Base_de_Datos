@@ -58,7 +58,29 @@ Regla: Debe estar en 2NF y no debe haber dependencias transitivas (una columna n
 Cumple, ya que:
 No hay dependencias transitivas en ninguna tabla. Todas las columnas no clave dependen directamente de la clave primaria.
 
+**Nuevo diseño en la 3NF**
 
+1. **Tabla Paciente**
+    - `id_paciente` (Clave primaria)
+    - `nombre`
+    - `edad`
+    - `genero`
+    - `direccion`
+    - `telefono`
+
+2. **Tabla Medico**
+    - `id_medico` (Clave primaria)
+    - `nombre` 
+    - `especialidad`
+    - `telefono`
+
+3. **Tabla Cita**
+    - `id_cita` 
+    - `id_paciente` (Clave foránea que referencia a `Paciente`)
+    - `id_medico`  (Clave foránea que referencia a `Medico`)
+    - `fecha_cita` 
+    - `hora_cita`
+    - Clave primaria compuesta: (`id_paciente`, `id_medico`, `fecha_cita`)
 
 
 ---
