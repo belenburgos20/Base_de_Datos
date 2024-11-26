@@ -32,7 +32,6 @@ Diseñar e implementar una base de datos que permita:
 | **Paciente** | (`id_paciente`)                |
 | **Médico**   | (`id_medico`)                  |
 | **Cita**     | (`id_paciente`, `id_medico`, `fecha_cita`) |
-)
 
 
 ---
