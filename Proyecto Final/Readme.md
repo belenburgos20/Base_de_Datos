@@ -2,40 +2,37 @@
 **Universidad Tecnológica Nacional - Facultad Regional Bahía Blanca**  
 **Materia:** Base de Datos  
 **Año:** 2024  
-
 ---
 
 ## Descripción del Proyecto  
 **Este proyecto consiste en:**
 
-Desarrollar un sistema para gestionar un hospital que incluya pacientes, médicos y turnos de consulta médica.
+Diseñar e implementar una base de datos que permita:  
 
-**Incluye:**  
--   Gestión de pacientes.
--   Gestión de doctores.
--   Manejo de turnos.
--   Búsquedas avanzadas.
--   Reporte de turnos.
--   Cancelación de turnos.
+- Registrar y gestionar la información de **pacientes** (datos personales).  
+- Administrar los datos de **médicos** (especialidad y contacto).  
+- Programar, buscar y cancelar **turnos médicos**.  
+- Generar **reportes de turnos** para análisis y seguimiento.  
+- Realizar **búsquedas avanzadas** para consultas específicas.  
+---
+
+## Dependencias Funcionales (DFs)  
+| Dependencia Funcional       | Descripción                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| **id_paciente**             | Determina (nombre, edad, género, dirección, teléfono).                     |
+| **id_medico**               | Determina (nombre, especialidad, teléfono).                                |
+| **id_cita**                 | Determina (id_paciente, id_medico, fecha_cita).                            |
+| **id_paciente, id_medico**  | Determina (fecha_cita).                                                    |
 
 ---
 
-## Dependencias Funcionales (DFs)
-- **id_paciente** -> (nombre, edad, género, dirección, teléfono)
-- **id_medico** -> (nombre, especialidad, teléfono)
-- **id_cita** -> (id_paciente, id_medico, fecha_cita)
-- **id_paciente, id_medico** -> fecha_cita
-  
----
-## Claves Candidatas
-- Tabla Paciente: (`id_paciente`)
-- Tabla Médico: (`id_medico`)
-- Tabla Cita: (`id_paciente`, `id_medico`, `fecha_cita`)
-
-
-
-
-
+## Claves Candidatas  
+| Tabla       | Clave Candidata                 |
+|-------------|---------------------------------|
+| **Paciente** | (`id_paciente`)                |
+| **Médico**   | (`id_medico`)                  |
+| **Cita**     | (`id_paciente`, `id_medico`, `fecha_cita`) |
+)
 
 
 ---
@@ -66,7 +63,7 @@ No hay dependencias transitivas en ninguna tabla. Todas las columnas no clave de
 
 
 ---
-## Objetivos  
+## ✨Objetivos  
 -  Optimizar la gestión de información.
 -  Facilitar la programación y gestión de turnos.
 -  Implementar funcionalidades avanzadas.
@@ -86,14 +83,17 @@ No hay dependencias transitivas en ninguna tabla. Todas las columnas no clave de
 
 
 ## Autores
-- Belatti, Mateo Adaalberto
-- Burgos, Belén
-- Peratta, Lucas
-- Robles, Gianfranco
+- **Belatti, Mateo Adaalberto**
+- **Burgos, Belén**
+- **Peratta, Lucas**
+- **Robles, Gianfranco**
 
 
 
 ---
 
 ## Estado del Proyecto
-**En proceso...**
+- ✅ Diseño completado.
+- 🕗 Testing de consultas avanzadas en progreso.
+- 🚀⏳ Proyecto em proceso.
+
